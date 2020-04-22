@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------------ Nav items */
+
+
+
+.Title{
+    text-align: center;
+    position: relative;
+    background-color: #525252;
+    color: #fafafa;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-menu{
+    padding: 0;
+}
+
+.nav-item{
+    display: inline-block;
+    text-align: center;
+    background-color: #525252;
+    padding-bottom: 35px;
+}
+
+.Demacia-nav{
+    color: rgb(231, 226, 175);
+}
+
+.Freljord-nav{
+    color:  rgb(79, 219, 238);
+}
+
+.Ionia-nav{
+    color: rgb(223, 141, 186);
+}
+
+.Noxus-nav {
+    color: rgb(187, 84, 84);
+}
+
+.PandZ-nav{
+    color: rgb(219, 192, 70);
+}
+
+.SI-nav{
+    color: rgb(60, 133, 60);
+}

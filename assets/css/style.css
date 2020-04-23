@@ -1,7 +1,5 @@
 /* ------------------------------------------------------------------ Nav items */
 
-
-
 .Title{
     text-align: center;
     position: relative;
@@ -27,22 +25,121 @@
     color: rgb(231, 226, 175);
 }
 
+.Demacia-nav:hover{
+    color: rgb(231, 226, 175, 0.4);
+}
+
+
 .Freljord-nav{
     color:  rgb(79, 219, 238);
+}
+
+.Freljord-nav:hover{
+    color:  rgb(79, 219, 238,0.4);
 }
 
 .Ionia-nav{
     color: rgb(223, 141, 186);
 }
 
+.Ionia-nav:hover{
+    color: rgb(223, 141, 186, 0.4);
+}
+
 .Noxus-nav {
     color: rgb(187, 84, 84);
+}
+
+.Noxus-nav:hover{
+    color: rgb(187, 84, 84, 0.4);
 }
 
 .PandZ-nav{
     color: rgb(219, 192, 70);
 }
 
+.PandZ-nav:hover{
+    color: rgb(219, 192, 70, 0.4);
+}
+
 .SI-nav{
     color: rgb(60, 133, 60);
+}
+
+.SI-nav:hover{
+    color: rgb(60, 133, 60, 0.4);
+}
+
+.Contact-nav,
+.Random-nav{
+    color: white;
+}
+
+.Contact-nav:hover,
+.Random-nav:hover{
+    color: rgb(255, 255, 255, 0.4);
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------ Footer */
+
+.lorsite {
+    text-align: center;
+    position: relative;
+}
+
+.patchnotes {
+    text-align: center;
+    position: relative;
+}
+
+.footer{
+    background-color: #525252;
+    color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lorsite-link:hover,
+.patchnotes-link:hover{
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------ Region Selector */
+
+.regionselect{
+    padding-top: 20px;
+}
+
+.region{
+    height: 50px;
+    width: 50px;
+}
+
+.region:hover{
+    opacity: 0.5;
+}
+
+/* ------------------------------------------------------------------ Playstyle Selector */
+
+.playstyleselect{
+    padding-top: 20px;
+}
+
+.playstylecheck{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ------------------------------------------------------------------ Champion number */
+
+.championselect{
+    padding-top: 20px;
+}
+
+.championr{
+    width: 200px;
 }

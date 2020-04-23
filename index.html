@@ -15,66 +15,88 @@
 
 <body>
     <header>
-     <!--   link to Demacia
-        Link to Ionia
-        Link to shadow Isles
-        link to Noxus
-        link to Piltover&zaun
-        link to Freljord cards
-        Contact for questions --> 
-
-
-        <div class="">
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <h1 class="Title">Legends of Runeterra Deck Randomizer</h1>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="">
-                                <ul id="nav" class="row nav-menu">
-                                    <div class="col-2 nav-item"></div>
-                                    <li class="nav-item col-1">
-                                        <a href="#" class="Random-nav"><span>Randomizer</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="#" class="Demacia-nav"><span>Demacia Cards</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="" class="Freljord-nav"><span>Freljord Cards</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="" class="Ionia-nav"><span>Ionia Cards</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="" class="Noxus-nav"><span>Noxus Cards</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="#" class="PandZ-nav"><span>Piltover & Zaun</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="#" class="SI-nav"><span>Shadow Isles</span></a>
-                                    </li>
-                                    <li class="nav-item col-1">
-                                        <a href="#" class="Contact-nav"><span>Contact</span></a>
-                                    </li>
-                                    <div class="col-2 nav-item"></div>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <div>
+            <div>
+                <h1 class="Title">Legends of Runeterra Deck Randomizer</h1>
+            </div>
+            <div>
+                <div>
+                    <ul id="nav" class="row nav-menu">
+                        <div class="col-2 nav-item"></div>
+                            <li class="nav-item col-1">
+                                <a href="#" class="Random-nav"><span>Randomizer</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="#" class="Demacia-nav"><span>Demacia Cards</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="" class="Freljord-nav"><span>Freljord Cards</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="" class="Ionia-nav"><span>Ionia Cards</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="" class="Noxus-nav"><span>Noxus Cards</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="#" class="PandZ-nav"><span>P & Z Cards</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="#" class="SI-nav"><span>Shadow Isles</span></a>
+                            </li>
+                            <li class="nav-item col-1">
+                                <a href="#" class="Contact-nav"><span>Contact</span></a>
+                            </li>
+                        <div class="col-2 nav-item"></div>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
+
     <section>
     <!--Main page with randomizer and the options to select different regions or playstyles --> 
+        <div class="row">
+            <div class="col-2 side"></div>
+            <div class="col-5">Sample Result</div>
+            <div class="col-3">
+                <div class="regionselect">
+                    <input type="image" src="../assets/images/icon-demacia.png" class="region">
+                    <input type="image" src="../assets/images/icon-freljord.png" class="region">
+                    <input type="image" src="../assets/images/icon-ionia.png" class="region">
+                    <input type="image" src="../assets/images/icon-noxus.png" class="region">
+                    <input type="image" src="../assets/images/icon-piltoverzaun.png" class="region">
+                    <input type="image" src="../assets/images/icon-shadowisles.png" class="region">
+                </div>
+                <div class="playstyleselect">
+                    <span class="playstylecheck">
+                        <input type="checkbox"> Aggro
+                    </span>
+                    <span class="playstylecheck">
+                        <input type="checkbox"> Midrange
+                    </span>
+                    <span class="playstylecheck">
+                        <input type="checkbox"> Control
+                    </span>
+                </div>
+                <div class="championselect">
+                    <input type="number" min="0" max="6" class="championr">
+                </div>
+            </div>
+            <div class="col-2 side"></div>
+        </div>
     </section>
 
     <footer>
-    <!--link to Legends of runeterra site
-    link to the most recent patch notes
-    Contact for questions --> 
+
+        <div class="row footer">
+            <div class="col-2"></div>
+            <span class="lorsite col-3">Take a look at the legends of Runeterra site <a class="lorsite-link" href="https://playruneterra.com/en-us/" target="_blank">HERE!</a></span>
+            <div class="col-2"></div>
+            <span class="patchnotes col-3">Read the most recent patch notes <a class="patchnotes-link" href="https://playruneterra.com/en-us/news/patch-0-9-0-notes/" target="_blank">HERE!</a></span>
+            <div class="col-2"></div>
+        </div>
     </footer>
 
 </body>

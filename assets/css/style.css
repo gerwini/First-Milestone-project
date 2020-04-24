@@ -141,5 +141,60 @@
 }
 
 .championr{
-    width: 200px;
+    width: 160px;
+}
+
+/* ------------------------------------------------------------------ Sample Results */
+
+.deckregions{
+    width: 100%;
+}
+
+.regionselected{
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.champselected{
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.playselected{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+
+.championselected{
+    width: 100%
+}
+
+.champtext{
+    text-align: center;
+}
+
+.number1{
+    padding-left: 25px;
+    padding-right: 20px 
+}
+
+.number2{
+    padding-left: 80px;
+    padding-right: 20px 
+}
+
+.cardshow{
+    width: 100%;
+    padding-right: 8px;
+}
+
+.cardview{
+    padding-left: 40px;
+}
+
+.regionselected{
+    text-align: center;
 }

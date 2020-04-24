@@ -58,9 +58,44 @@
     <section>
     <!--Main page with randomizer and the options to select different regions or playstyles --> 
         <div class="row">
-            <div class="col-2 side"></div>
-            <div class="col-5">Sample Result</div>
-            <div class="col-3">
+            <div class="col-1 side"></div>
+            <div class="col-7 row">
+                <div class="col-5">
+                    <div class="row regionselected">
+                        <span class="col-6"><img src="../assets/images/icon-shadowisles.png" class="deckregions"></span>
+                        <span class="col-6"><img src="../assets/images/icon-freljord.png" class="deckregions"></span>
+                    </div>
+                    <div class="champselected row"><div class="champtext col-12">Champions:</div>
+                        <span class="col-6"><img src="../assets/images/Thresh.png" class="championselected"></span>
+                        <span class="col-6"><img src="../assets/images/Anivia.png" class="championselected"></span>
+                    </div>
+                    <div class="playselected">Playstyle:</div> 
+                </div>
+                <div class="col-7 cardview">
+                    <div class="row">
+                        <span class="col-3"><img src="../assets/images/VileFeast.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/IceArcher.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/stones.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/flashfreeze.png" class="cardshow"></span>
+                    </div>
+                    <div class="row">
+                        <span class="col-3"><img src="../assets/images/avalanche.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/grasp.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/wail.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/catalyst.png" class="cardshow"></span>
+                    </div>
+                    <div class="row">
+                        <span class="col-3"><img src="../assets/images/harsh.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/vengeance.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/rhasa.png" class="cardshow"></span>
+                        <span class="col-3"><img src="../assets/images/ledros.png" class="cardshow"></span>
+                    </div>
+                    <div class="row">
+                        <span class="col-3"><img src="../assets/images/ruination.png" class="cardshow"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3" style="padding-left:80px;">
                 <div class="regionselect">
                     <input type="image" src="../assets/images/icon-demacia.png" class="region">
                     <input type="image" src="../assets/images/icon-freljord.png" class="region">
@@ -81,10 +116,10 @@
                     </span>
                 </div>
                 <div class="championselect">
-                    <input type="number" min="0" max="6" class="championr">
+                    Champion Amount: <input type="number" min="0" max="6" class="championr">
                 </div>
             </div>
-            <div class="col-2 side"></div>
+            <div class="col-1 side"></div>
         </div>
     </section>
 

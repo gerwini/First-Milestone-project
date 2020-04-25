@@ -198,3 +198,37 @@
 .regionselected{
     text-align: center;
 }
+
+/* ------------------------------------------------------------------ card pages */
+
+.infotext{
+    text-align: center;
+}
+
+.demaciaback{
+    background-color:rgb(231, 226, 175,0.5);
+}
+
+.freljordback{
+    background-color: rgb(79, 219, 238,0.5);
+}
+
+.ioniaback{
+    background-color: rgb(223, 141, 186,0.5);
+}
+
+.noxusback{
+    background-color: rgb(187, 84, 84,0.5);
+}
+
+.PandZback{
+    background-color: rgb(219, 192, 70,0.5);
+}
+
+.siback{
+    background-color: rgb(60, 133, 60,0.5);
+}
+
+.section{
+    margin-top: -16px;
+}

@@ -144,10 +144,12 @@
     width: 160px;
 }
 
+
+
 /* ------------------------------------------------------------------ Sample Results */
 
 .deckregions{
-    width: 100%;
+    max-width: 100%;
 }
 
 .regionselected{

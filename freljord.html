@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -19,36 +22,53 @@
             <div>
                 <h1 class="Title">Legends of Runeterra Deck Randomizer</h1>
             </div>
-            <div>
-                <div>
-                    <ul id="nav" class="row nav-menu">
-                        <div class="col-2 nav-item"></div>
-                           <li class="nav-item col-1">
-                                <a href="index.html" class="Random-nav"><span>Randomizer</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="demacia.html" class="Demacia-nav"><span>Demacia Cards</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="freljord.html" class="Freljord-nav"><span>Freljord Cards</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="ionia.html" class="Ionia-nav"><span>Ionia Cards</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="noxus.html" class="Noxus-nav"><span>Noxus Cards</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="PandZ.html" class="PandZ-nav"><span>P & Z Cards</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="si.html" class="SI-nav"><span>Shadow Isles</span></a>
-                            </li>
-                            <li class="nav-item col-1">
-                                <a href="contact.html" class="Contact-nav"><span>Bilgewater</span></a>
-                            </li>
-                        <div class="col-2 nav-item"></div>
-                    </ul>
+
+            <div class="bnav">
+                <ul id="nav" class="row nav-menu">
+                    <div class="col-2 nav-item"></div>
+                        <li class="nav-item col-1">
+                            <a href="index.html" class="Random-nav"><span>Randomizer</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="demacia.html" class="Demacia-nav"><span>Demacia Cards</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="freljord.html" class="Freljord-nav"><span>Freljord Cards</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="ionia.html" class="Ionia-nav"><span>Ionia Cards</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="noxus.html" class="Noxus-nav"><span>Noxus Cards</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="PandZ.html" class="PandZ-nav"><span>P & Z Cards</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="si.html" class="SI-nav"><span>Shadow Isles</span></a>
+                        </li>
+                        <li class="nav-item col-1">
+                            <a href="contact.html" class="Contact-nav"><span>Bilgewater</span></a>
+                        </li>
+                    <div class="col-2 nav-item"></div>
+                </ul>
+            </div>
+
+            <div class="dropdown mnav">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                    <div class="dropdown">
+                    <div><a href="index.html" class="Random-nav"><span>Randomizer</span></a></div>
+                    <div><a href="demacia.html" class="Demacia-nav"><span>Demacia Cards</span></a></div>
+                    <div><a href="freljord.html" class="Freljord-nav"><span>Freljord Cards</span></a></div>
+                    <div><a href="ionia.html" class="Ionia-nav"><span>Ionia Cards</span></a></div>
+                    <div><a href="noxus.html" class="Noxus-nav"><span>Noxus Cards</span></a></div>
+                    <div><a href="PandZ.html" class="PandZ-nav"><span>P & Z Cards</span></a></div>
+                    <div><a href="si.html" class="SI-nav"><span>Shadow Isles</span></a></div>
+                    <div><a href="contact.html" class="Contact-nav"><span>Bilgewater</span></a></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,15 +81,15 @@
                 <div class="infotext"><h3>Champions</h3></div>
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-4"><img src="../assets/images/freljord/braum.png" class="cardshow"></span>
-                    <span class="col-4"><img src="../assets/images/freljord/ashe.png" class="cardshow"></span>
+                    <span class="col-4"><img src="../assets/images/freljord/braum.png"  alt="braum card" class="cardshow"></span>
+                    <span class="col-4"><img src="../assets/images/freljord/ashe.png"  alt="ashe card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-4"><img src="../assets/images/freljord/Anivia.png" class="cardshow"></span>
-                    <span class="col-4"><img src="../assets/images/freljord/tryndamere.png" class="cardshow"></span>
+                    <span class="col-4"><img src="../assets/images/freljord/Anivia.png"  alt="anivia card" class="cardshow"></span>
+                    <span class="col-4"><img src="../assets/images/freljord/tryndamere.png"  alt="tryndamere card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
             </div>
@@ -77,73 +97,73 @@
                 <div class="infotext"><h3>Followers</h3></div>
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/omen.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/reaver.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/lonely.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/yearling.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/omen.png"  alt="omen card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/reaver.png"  alt="reaver card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/lonely.png"  alt="lonely card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/yearling.png"  alt="yearling card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/sentry.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/IceArcher.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/starlit.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/feral.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/sentry.png" alt="sentry card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/IceArcher.png" alt="icearcher card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/starlit.png" alt="starlit card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/feral.png" alt="feral card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/stalking.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/rimefang.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/stones.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/scarthane.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/stalking.png" alt="stalking card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/rimefang.png" alt="rimefang card"  class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/stones.png" alt="stones card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/scarthane.png" alt="scarthane card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/kindly.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/mighty.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/trapper.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/marksman.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/kindly.png" alt="kindly card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/mighty.png" alt="mighty card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/trapper.png" alt="trapper card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/marksman.png" alt="marksman card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/bjerg.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/herder.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/bullelnuk.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/outriders.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/bjerg.png" alt="bjerg card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/herder.png" alt="herder card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/bullelnuk.png" alt="bullelnuk card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/outriders.png" alt="outriders card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/troop.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/rimetusk.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/hearthguard.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/scarmaiden.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/troop.png" alt="troop card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/rimetusk.png" alt="rimetusk" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/hearthguard.png" alt="hearthguard card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/scarmaiden.png" alt="scarmaiden card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/tarkaz.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/scarmother.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/wildclaw.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/endure.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/tarkaz.png" alt="tarkaz card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/scarmother.png" alt="scarmother card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/wildclaw.png" alt="wildclaw card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/endure.png" alt="endure card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/fluft.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/ancient.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/icyyeti.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/wanders.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/fluft.png" alt="fluft card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/ancient.png" alt="ancient card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/icyyeti.png" alt="icyyeti card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/wanders.png" alt="wanders card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
             </div>
@@ -151,43 +171,43 @@
                 <div class="infotext"><h3>Spells</h3></div>
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/iron.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/brittle.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/entreat.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/shatter.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/iron.png" alt="iron card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/brittle.png" alt="brittle card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/entreat.png" alt="entreat card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/shatter.png" alt="shatter card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/flashfreeze.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/legacy.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/heart.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/tales.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/flashfreeze.png" alt="flashfreeze card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/legacy.png" alt="legacy card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/heart.png" alt="heart card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/tales.png" alt="tales card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/pledge.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/catalyst.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/snax.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/avalanche.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/pledge.png" alt="pledge card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/catalyst.png" alt="catalyst card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/snax.png" alt="snax card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/avalanche.png" alt="avalanche card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/harsh.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/breath.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/mentality.png" class="cardshow"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/battlefury.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/harsh.png" alt="harsh card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/breath.png" alt="breath card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/mentality.png" alt="mentality card" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/battlefury.png" alt="battlefury card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
 
                 <div class="row">
                     <span class="col-2"></span>
-                    <span class="col-2"><img src="../assets/images/freljord/warmothers.png" class="cardshow"></span>
+                    <span class="col-2"><img src="../assets/images/freljord/warmothers.png" alt="warmothers card" class="cardshow"></span>
                     <span class="col-2"></span>
                 </div>
             </div>

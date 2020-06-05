@@ -21,6 +21,10 @@
     padding-bottom: 35px;
 }
 
+.dropnav{
+    background-color: #525252;
+}
+
 .Demacia-nav{
     color: rgb(231, 226, 175);
 }
@@ -233,4 +237,31 @@
 
 .section{
     margin-top: -16px;
+}
+
+/* ------------------------------------------------------------------ dropdown menu*/
+
+.dropdown{
+    background-color: #525252;
+}
+
+.mnav{
+    display: none;
+}
+
+/* ------------------------------------------------------------------ sizes */
+
+@media screen and (max-width: 800px){
+    .cardshow{
+        min-width: 130px;
+        width: 35%;
+    }
+
+    .mnav{
+        display: inline-block;
+    }
+
+    .bnav{
+        display: none;
+    }
 }

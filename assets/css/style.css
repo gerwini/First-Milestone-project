@@ -134,8 +134,8 @@
 }
 
 .playstylecheck{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* ------------------------------------------------------------------ Champion number */
@@ -145,7 +145,7 @@
 }
 
 .championr{
-    width: 160px;
+    width: 10px;
 }
 
 
@@ -156,22 +156,9 @@
     max-width: 100%;
 }
 
-.regionselected{
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.champselected{
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 
 .playselected{
     text-align: center;
-    padding-bottom: 50px;
-    padding-right: 40px;
 }
 
 .championselected{

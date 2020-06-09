@@ -1,39 +1,19 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Legends of Runeterra Randomizer
 
-Welcome gerwini,
+This site is made for people that enjoy playing Legends of Runeterra but are not sure as to what kind of deck they want to play. Take a look at all the different options then select what
+regions and what playstle you would like to play and its randomize time!!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The randomizer option will let you randomize your deck.
+The different pages is the navigation will show you the different regions to take a look at what they contain.
+In the footer you can find links to the site and the most recent patch notes.
 
-## Gitpod Reminders
+When I learn more about javascript and other programs ill make it so that the site will actually randomize and allow you to get a random set of cards to play with!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I plan to add the total costs and rarity of the cards needed so that you can see if you can afford them or not.
 
-`python3 -m http.server`
+I have used a dropdown menu coding from bootstrap https://getbootstrap.com/docs/4.5/components/dropdowns/
 
-A blue button should appear to click: *Make Public*,
+Besides the randomizer option that will be added at a later date the site works well and has been tested in different screen sizes to make sure it looks good in all of them!
 
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+The images used are taken from " https://rankedboost.com/legends-of-runeterra/ " 
+the code for a dropdown menu is from " https://getbootstrap.com/docs/4.5/components/dropdowns/ "

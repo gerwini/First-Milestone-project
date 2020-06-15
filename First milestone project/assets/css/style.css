@@ -10,6 +10,11 @@
     padding-bottom: 25px;
 }
 
+.enlarge > img:hover{
+    width: 500px;
+    height: 200px;
+}
+
 .nav-menu{
     padding: 0;
 }

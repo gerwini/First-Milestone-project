@@ -1,5 +1,9 @@
 Legends of Runeterra Randomizer
 
+At the randomizer nav button you can randomize your very own that that you can play with! at the different nav-items with regions (demacia, freljord, ionia, noxus, PandZ, shadow isles) you can take a look
+at the different champions(iconic units that all bring a different win-condition for your play), followers(units that can help achieve a win con or get control of the game) and spells(cards that have effects either helping you or messing with the opponent)!
+In the footer you can take a look at the site of "Legends of Runeterra" and the most recent Patch notes (which has updates regarding to the game).
+
 This site is made for people that enjoy playing Legends of Runeterra but are not sure as to what kind of deck they want to play. Take a look at all the different options then select what
 regions and what playstle you would like to play and its randomize time!!
 

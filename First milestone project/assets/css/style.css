@@ -10,11 +10,6 @@
     padding-bottom: 25px;
 }
 
-.enlarge > img:hover{
-    width: 500px;
-    height: 200px;
-}
-
 .nav-menu{
     padding: 0;
 }
@@ -94,6 +89,10 @@
 }
 
 /* ------------------------------------------------------------------ Footer */
+
+.footer {
+  flex-shrink: 0;
+}
 
 .lorsite {
     text-align: center;
@@ -245,7 +244,7 @@
 
 @media screen and (max-width: 800px){
     .cardshow{
-        min-width: 130px;
+        min-width: 75px;
         width: 35%;
     }
 
@@ -256,4 +255,18 @@
     .bnav{
         display: none;
     }
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.cardshowm{
+    width: 100%;
 }

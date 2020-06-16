@@ -21,3 +21,5 @@ Besides the randomizer option that will be added at a later date the site works 
 
 The images used are taken from " https://rankedboost.com/legends-of-runeterra/ " 
 the code for a dropdown menu is from " https://getbootstrap.com/docs/4.5/components/dropdowns/ "
+The modals I got from: " https://getbootstrap.com/docs/4.5/components/modal/ "
+and the script written for those I got from someone else since I have yet to learn javascript.

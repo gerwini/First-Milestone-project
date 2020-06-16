@@ -16,6 +16,13 @@
 <!-- python3 -m http.server 3000 -->
 
 <body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <img alt="Lucian Card" class="cardshowm">
+            </div>
+        </div>
+
     <header>
         <div>
             <div>
@@ -85,6 +92,15 @@
             <div class="d-sm-none d-lg-block col-lg-2"></div>
         </div>
     </footer>
+
+<script>
+$(document).ready(function () {
+        $('#exampleModal').on('show.bs.modal', function (e) {
+            var image = $(e.relatedTarget).attr('src');
+            $(".cardshowm").attr("src", image);
+        });
+});
+</script>
 
 </body>
 </html>

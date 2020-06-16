@@ -131,6 +131,10 @@
     opacity: 0.5;
 }
 
+.lefter{
+    padding-left: 110px;
+}
+
 /* ------------------------------------------------------------------ Playstyle Selector */
 
 .playstyleselect{
@@ -257,16 +261,23 @@
     }
 }
 
-.Site {
+.cardshowm{
+    width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
-.Site-content {
-  flex: 1;
+.content {
+  flex: 1 0 auto;
 }
 
-.cardshowm{
-    width: 100%;
+.footer {
+  flex-shrink: 0;
 }

@@ -1,5 +1,7 @@
 # Legends of Runeterra Randomizer
 
+## Click on the images to enlarge them!
+
 ## Nav bar
 At the randomizer nav button you can randomize your very own that that you can play with! at the different nav-items with **regions** (demacia, freljord, ionia, noxus, PandZ, shadow isles) you can take a look
 at the different **champions**(iconic units that all bring a different win-condition for your play), **followers**(units that can help achieve a win con or get control of the game) and **spells**(cards that have effects either helping you or messing with the opponent)!

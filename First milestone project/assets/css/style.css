@@ -90,6 +90,19 @@
 
 /* ------------------------------------------------------------------ Footer */
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
 .footer {
   flex-shrink: 0;
 }
@@ -265,19 +278,14 @@
     width: 100%;
 }
 
-html, body {
-  height: 100%;
+/* ------------------------------------------------------------------ info page */
+
+.infocard{
+    width: 100%;
+    padding-right: 8px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1 0 auto;
-}
-
-.footer {
-  flex-shrink: 0;
+.info{
+    padding-top: 15px;
+    padding-bottom: 35px;
 }

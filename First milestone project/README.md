@@ -30,3 +30,10 @@ Besides the randomizer option that will be added at a later date the site works 
 * the code for a dropdown menu is from " https://getbootstrap.com/docs/4.5/components/dropdowns/ "
 * The modals I got from: " https://getbootstrap.com/docs/4.5/components/modal/ "
 * and the script written for those I got from someone else since I have yet to learn javascript.
+
+## tested and bugs
+* I have tested my site multiple times to try and make sure it works as intended and kept changing my code and css until it did, and this is the final result!
+* One time my gitpod started crashing by creating infinite files of the First Milestone Project which took me a while to figure it out but I succeeded in doing so.
+
+## Devlopment/deployment
+I added the testing and bugs to my README, removed some comments used to test my site and made my css file a little more clear.
